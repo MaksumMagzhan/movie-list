@@ -1,0 +1,9 @@
+.lists__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+}
