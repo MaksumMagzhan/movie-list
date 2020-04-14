@@ -1,0 +1,32 @@
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 35px;
+  row-gap: 35px;
+}
+
+.movies__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  margin-bottom: 35px;
+}
+
+.movies__action {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    margin-top: 5px;
+  }
+}
+
+.free-space {
+  height: 40px;
+  text-align: center;
+  color: red;
+  font-size: 22px;
+}
